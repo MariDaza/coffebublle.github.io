@@ -513,5 +513,25 @@ display: inline-block;
 .im{
   width: 50px;
 }
+}
+section {
+  display: flex;
+  width: 800px;
+  height:930x;
+}
+section img{
+  width: 0px;
+  flex-grow: 1;
+  object-fit: cover;
+  opacity: .8;
+  transition: .5 ease;
+}
+section img:hover{
+  cursor: crosshair;
+  width: 100px;
+  opacity: 1;
+  filter: contrast(120%);
 
+
+}
 
